@@ -1,0 +1,113 @@
+body{
+  margin: 0 auto;
+  background-color: rgb(153, 102, 0);
+}
+#create {
+  width : 35%;
+  margin : 10px;
+  padding: 10px;
+  vertical-align: middle;
+  border: solid 5px  rgb(0, 51, 0);
+  display : inline-block;
+  position: relative;
+  left: 30%;
+  background-color: rgb(0, 77, 0);
+  font-weight: bold;
+  font-size : 20px;
+  color: white;
+}
+
+.clients{
+  display: block;
+  width: 100%;
+  transform: translateX(37%);
+
+}
+span.display{
+  border : solid 4px rgb(0, 51, 0);
+  padding: 0.5%;
+  background-color : rgb(0, 77, 0);
+  font-weight: bold;
+  font-size : 20px;
+  color: white;
+  width: 25%;
+  text-align: center;
+  display: block;
+}
+#removeclient{
+  position: relative;
+  left: 1%;
+  font-size : 20px;
+}
+.bdata{
+  padding: 0.5%;
+  background-color: rgb(0, 77, 0);;
+  color: white;
+  font-size : 20px;
+  border: solid 5px   rgb(0, 51, 0);
+  font-weight: bold;
+}
+
+.header{
+  text-align: center;
+  background-color:  rgb(0, 77, 0);
+  color: white;
+}
+.cout, .clientCout, .detailConso{
+ margin-left: 5%;
+}
+.coutUnit{
+  display : inline-block;
+  vertical-align: middle;
+}
+.coutUnit:first-of-type, .electricite{
+    background-color:  rgb(128, 0, 0);
+}
+.coutUnit:first-of-type +.coutUnit, .gaz{
+  background-color:  rgb(0, 128, 64);
+}
+.coutUnit:last-of-type, .eau{
+  background-color: rgb(128, 0, 85);
+}
+.coutUnit:first-of-type, .coutUnit:first-of-type +.coutUnit, .coutUnit{
+  margin: 0.5%;
+  padding: 0.5%;
+  font-weight: bold;
+}
+
+.cliRess label{
+  border : solid 2px  rgb(153, 102, 0);
+  padding: 0.5%;
+  color: black;
+  font-size: 15px;
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+
+}
+
+label.nameClient, .month{
+  background-color:  rgb(0, 128, 128) ;
+}
+
+span .nameRess:nth-of-type(2){
+  background-color:  rgb(128, 0, 0);
+}
+
+span .nameRess:nth-of-type(3){
+  background-color:  rgb(0, 128, 64);
+}
+span .nameRess:last-of-type{
+  background-color:  rgb(128, 0, 85);
+}
+.detailConso{
+  font-weight: bold;
+  width: 50%;
+  text-align: center;
+  position: relative;
+  left: 15%;
+}
+caption{
+  font-size: 15px;
+}

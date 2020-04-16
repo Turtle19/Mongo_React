@@ -1,0 +1,20 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+ #insertReactHere {
+   background-color : rgb(230,230,230);
+   border : solid thin rgb(200,200,200);
+   margin : 20px;
+   padding : 20px;
+ }
+
+ #insertReactHere article {
+   background-color : rgb(250,250,250);
+ padding : 10px;
+ }
